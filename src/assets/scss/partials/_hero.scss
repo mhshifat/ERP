@@ -1,0 +1,68 @@
+.hero {
+  width: 100%;
+  min-height: calc(100vh - 20rem);
+  background: linear-gradient(to bottom, $primaryColor, $secondaryColor);
+  padding-top: 10rem;
+
+  &--wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  &__content {
+    flex-grow: 1;
+    margin-top: 7rem;
+
+    &__wrapper {
+      width: 55rem;
+      height: auto;
+    }
+
+    &__title {
+      color: #fff;
+      font-weight: 700;
+      font-size: 5.5rem;
+      line-height: 7rem;
+    }
+
+    &__sub {
+      font-size: 3.5rem;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 6.5rem;
+
+      & span {
+        color: #57ddff;
+      }
+    }
+
+    &__desc {
+      color: #a4e2ff;
+      font-size: 1.8rem;
+      line-height: 3rem;
+      margin-top: 2rem;
+    }
+
+    &__btns {
+      margin-top: 5rem;
+      display: flex;
+      align-items: center;
+
+      &__link {
+        margin-right: 2rem;
+        color: #ffffff;
+        padding: 1rem 2rem;
+        border-radius: 3px;
+
+        & i {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  &__show {
+    margin-left: -3rem;
+  }
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.container {
+  max-width: 114rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.primary--color--op {
+  color: $priOpColor !important;
+}
+
+.link--btn {
+  background: $bgColor;
+  color: $primaryColor !important;
+  padding: 0.6rem 1.8rem;
+  border-radius: 3px;
+}
+
+.hero--btn--one {
+  background: #14d6e8 !important;
+}
+
+.hero--btn--two {
+  background: #37b6ff !important;
+}
+
+.hero--btn--three {
+  border-bottom: 2px solid #60cafa;
+}
+
+.color--blue {
+  color: #14bff9;
+  font-weight: 500;
+}

@@ -1,0 +1,46 @@
+.call {
+  width: 100%;
+  height: 453px;
+  background: url("/images/call-bg.png") no-repeat;
+  background-size: cover;
+
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img {
+    margin-top: -10rem;
+  }
+
+  &__title {
+    color: $bgColor;
+    font-size: 5rem;
+    line-height: 8rem;
+  }
+
+  &__subtitle {
+    color: #c0ebff;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 4rem;
+
+    & span {
+      color: #57ddff;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin-top: 3rem;
+    background: $bgColor;
+    color: #2b62c9;
+    padding: 1.3rem 2rem;
+    font-weight: 500;
+    border-radius: 3px;
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.1);
+  }
+}

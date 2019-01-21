@@ -1,0 +1,84 @@
+.client {
+  width: 100%;
+  height: auto;
+  background: #f5f7fa;
+  padding: 12rem 0 16rem 0;
+
+  &--wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  &__header {
+    width: 100%;
+    height: auto;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10rem;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+
+    &__card {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      background: $bgColor;
+      width: 36rem;
+      padding: 3rem;
+      box-shadow: -1px 2px 2px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+
+      &__quote--left {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.5rem;
+      }
+
+      &__content {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        color: #8a8a8a;
+        margin-bottom: 0.5rem;
+      }
+
+      &__quote--right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      &__name {
+        color: #616161;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      &__position {
+        color: #2b62c9;
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__link {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+
+    & a {
+      background: #2b62c9;
+      color: #ffffff;
+      padding: 1.5rem 2rem;
+      border-radius: 3px;
+    }
+  }
+}
